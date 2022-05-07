@@ -1,6 +1,6 @@
 resource "aws_vpc" "main" {
-  cidr_block = "10.20.0.0/16"
+  cidr_block = var.cidr
   tags = {
-    Name = "Project-1"
+    Name = var.project_name
   }
 }
