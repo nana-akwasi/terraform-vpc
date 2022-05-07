@@ -18,18 +18,18 @@ module "vpc-prd" {
 
 module "s3-dev" {
     source = "./S3"
-    bucket_name = "test-777"
+    bucket_name = "test-777666"
     env_name = "development"
 }
 
 module "s3-stg" {
     source = "./S3"
-    bucket_name = "test-666"
+    bucket_name = "test-666555"
     env_name = "staging"
 }
 
 module "s3-prd" {
     source = "./S3"
-    bucket_name = "test-555"
+    bucket_name = "test-555444"
     env_name = "production"
 }
