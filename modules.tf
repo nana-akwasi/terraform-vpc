@@ -16,3 +16,20 @@ module "vpc-prd" {
     project_name = "Project-1-prd"
 }
 
+module "s3-dev" {
+    source = "./S3"
+    bucket_name = "test-777"
+    env_name = "development"
+}
+
+module "s3-stg" {
+    source = "./S3"
+    bucket_name = "test-666"
+    env_name = "staging"
+}
+
+module "s3-prd" {
+    source = "./S3"
+    bucket_name = "test-555"
+    env_name = "production"
+}
