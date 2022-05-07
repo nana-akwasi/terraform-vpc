@@ -1,7 +1,7 @@
-variables "cidr" {
+variable "cidr" {
     type = string
 }
 
-variables "project_name" {
+variable "project_name" {
     type = string
 }
