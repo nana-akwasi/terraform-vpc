@@ -1,5 +1,5 @@
 resource "aws_internet_gateway" "main" {
-  vpc_id = "vpc-0c108d7e3455733ea"
+  vpc_id = "vpc-02f0db6d8f28828a2"
 
   tags = {
     Name = "Project-1"
